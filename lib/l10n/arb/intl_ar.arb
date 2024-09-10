@@ -1,0 +1,35 @@
+{
+    "language":"اللغة",
+    "en":"إنجليزي",
+    "ar":"عربي",
+    "joinNow" : "انضم الان",
+
+    "alert":"تنبيه",
+    "doUWantToExitTheApp":"هل تريد الخروج من التطبيق؟",
+    "yes":"نعم",
+    "no":"لا",
+
+    "skip":"تخطي",
+    "next":"التالي",
+    "howDoesItWork" : "كيف يعمل",
+    "downloadTentofreeApp":"تنزيل تطبيق tenofree",
+    "goToYourFavouriteStore" : "اذهب إلى متجرك المفضل",
+    "shareWithYourCommunity" : "شارك مع مجتمعك",
+    "saveAndGetYourDiscount":"وفر واحصل على خصمك",
+    "helpingBusinessToGrowAndExpand" : "مساعدة الأعمال على النمو والتوسع",
+    "pack":"حزمة",
+    "voucher":"قسيمة",
+    "vendor":"بائع",
+    "user":"مستخدم"
+
+
+
+
+
+
+
+
+
+    
+
+}
