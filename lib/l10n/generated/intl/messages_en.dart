@@ -22,32 +22,53 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "FAQs": MessageLookupByLibrary.simpleMessage("FAQs"),
+        "aboutTentofree":
+            MessageLookupByLibrary.simpleMessage("About tentofree"),
         "alert": MessageLookupByLibrary.simpleMessage("Alert"),
         "ar": MessageLookupByLibrary.simpleMessage("AR"),
+        "becomePartner":
+            MessageLookupByLibrary.simpleMessage("Become a partner"),
+        "business": MessageLookupByLibrary.simpleMessage("Business"),
+        "carrers": MessageLookupByLibrary.simpleMessage("Carrers"),
+        "company": MessageLookupByLibrary.simpleMessage("Company"),
+        "contactUs": MessageLookupByLibrary.simpleMessage("Contact us"),
         "doUWantToExitTheApp": MessageLookupByLibrary.simpleMessage(
             "Do you want to exit the app?"),
         "downloadTentofreeApp":
             MessageLookupByLibrary.simpleMessage("Download tentofree app"),
         "en": MessageLookupByLibrary.simpleMessage("EN"),
+        "endUserAgreement":
+            MessageLookupByLibrary.simpleMessage("End user Agreement"),
+        "getInTouch": MessageLookupByLibrary.simpleMessage("Get in touch"),
         "goToYourFavouriteStore":
             MessageLookupByLibrary.simpleMessage("Go to your favourite store"),
+        "helpCenter": MessageLookupByLibrary.simpleMessage("Help center"),
         "helpingBusinessToGrowAndExpand": MessageLookupByLibrary.simpleMessage(
             "Helping Business to grow and expand"),
         "howDoesItWork":
             MessageLookupByLibrary.simpleMessage("How Does it Work"),
         "joinNow": MessageLookupByLibrary.simpleMessage("Join Now"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "legal": MessageLookupByLibrary.simpleMessage("Legal"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "ourTerms": MessageLookupByLibrary.simpleMessage("Our Terms"),
         "pack": MessageLookupByLibrary.simpleMessage("Pack"),
+        "pressAndMedia": MessageLookupByLibrary.simpleMessage("Press & media"),
+        "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
         "saveAndGetYourDiscount":
             MessageLookupByLibrary.simpleMessage("Save & get your discount"),
+        "securityAndPrivacy":
+            MessageLookupByLibrary.simpleMessage("Security & Privacy"),
         "shareWithYourCommunity":
             MessageLookupByLibrary.simpleMessage("Share with your community"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "termOfSale": MessageLookupByLibrary.simpleMessage("Term of sale"),
         "user": MessageLookupByLibrary.simpleMessage("User"),
         "vendor": MessageLookupByLibrary.simpleMessage("Vendor"),
         "voucher": MessageLookupByLibrary.simpleMessage("Voucher"),
+        "workWithUs": MessageLookupByLibrary.simpleMessage("Work with us"),
         "yes": MessageLookupByLibrary.simpleMessage("Yes")
       };
 }

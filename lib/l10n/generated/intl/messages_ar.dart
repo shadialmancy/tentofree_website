@@ -22,31 +22,52 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "FAQs": MessageLookupByLibrary.simpleMessage("FAQs"),
+        "aboutTentofree":
+            MessageLookupByLibrary.simpleMessage("نبذة عن Tentofree"),
         "alert": MessageLookupByLibrary.simpleMessage("تنبيه"),
         "ar": MessageLookupByLibrary.simpleMessage("عربي"),
+        "becomePartner": MessageLookupByLibrary.simpleMessage("كن شريكا"),
+        "business": MessageLookupByLibrary.simpleMessage("الأعمال"),
+        "carrers": MessageLookupByLibrary.simpleMessage("المهن"),
+        "company": MessageLookupByLibrary.simpleMessage("شركة"),
+        "contactUs": MessageLookupByLibrary.simpleMessage("اتصل بنا"),
         "doUWantToExitTheApp":
             MessageLookupByLibrary.simpleMessage("هل تريد الخروج من التطبيق؟"),
         "downloadTentofreeApp":
             MessageLookupByLibrary.simpleMessage("تنزيل تطبيق tenofree"),
         "en": MessageLookupByLibrary.simpleMessage("إنجليزي"),
+        "endUserAgreement":
+            MessageLookupByLibrary.simpleMessage("اتفاقية المستخدم النهائي"),
+        "getInTouch": MessageLookupByLibrary.simpleMessage("تواصل معنا"),
         "goToYourFavouriteStore":
             MessageLookupByLibrary.simpleMessage("اذهب إلى متجرك المفضل"),
+        "helpCenter": MessageLookupByLibrary.simpleMessage("مركز المساعدة"),
         "helpingBusinessToGrowAndExpand": MessageLookupByLibrary.simpleMessage(
             "مساعدة الأعمال على النمو والتوسع"),
         "howDoesItWork": MessageLookupByLibrary.simpleMessage("كيف يعمل"),
         "joinNow": MessageLookupByLibrary.simpleMessage("انضم الان"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
+        "legal": MessageLookupByLibrary.simpleMessage("قانوني"),
         "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "no": MessageLookupByLibrary.simpleMessage("لا"),
+        "ourTerms": MessageLookupByLibrary.simpleMessage("شروطنا"),
         "pack": MessageLookupByLibrary.simpleMessage("حزمة"),
+        "pressAndMedia":
+            MessageLookupByLibrary.simpleMessage("الصحافة والاعلام"),
+        "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
         "saveAndGetYourDiscount":
             MessageLookupByLibrary.simpleMessage("وفر واحصل على خصمك"),
+        "securityAndPrivacy":
+            MessageLookupByLibrary.simpleMessage("الأمان والخصوصية"),
         "shareWithYourCommunity":
             MessageLookupByLibrary.simpleMessage("شارك مع مجتمعك"),
         "skip": MessageLookupByLibrary.simpleMessage("تخطي"),
+        "termOfSale": MessageLookupByLibrary.simpleMessage("شروط البيع"),
         "user": MessageLookupByLibrary.simpleMessage("مستخدم"),
         "vendor": MessageLookupByLibrary.simpleMessage("بائع"),
         "voucher": MessageLookupByLibrary.simpleMessage("قسيمة"),
+        "workWithUs": MessageLookupByLibrary.simpleMessage("العمل معنا"),
         "yes": MessageLookupByLibrary.simpleMessage("نعم")
       };
 }

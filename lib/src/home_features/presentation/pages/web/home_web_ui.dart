@@ -13,12 +13,7 @@ class HomeWebUi extends StatefulWidget {
 }
 
 class _HomeWebUiState extends State<HomeWebUi> {
-  final List<String> imageList = [
-    AssetsHelper.step1Banner,
-    AssetsHelper.step2Banner,
-    AssetsHelper.step3Banner,
-    AssetsHelper.step4Banner,
-  ];
+  
   @override
   Widget build(BuildContext context) {
     final (theme, l10n) = appSettingsRecord(context);
@@ -27,11 +22,12 @@ class _HomeWebUiState extends State<HomeWebUi> {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.all(2.sw),
+            padding: EdgeInsets.symmetric(vertical: 2.sh,horizontal: 5.sw),
             width: double.infinity,
             color: theme.primary,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Image.asset(
                   AssetsHelper.shareVoucherGetFreeItemBanner,
@@ -75,45 +71,11 @@ class _HomeWebUiState extends State<HomeWebUi> {
               ],
             ),
           ),
-          Container(
-            width: double.infinity,
-            padding: EdgeInsets.only(left: 2.sw,right: 2.sw,top: 2.sh),
-            color: theme.secondary,
-            child: Wrap(
-              crossAxisAlignment: WrapCrossAlignment.center,
-              alignment: WrapAlignment.spaceAround,
-              children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Image.asset(AssetsHelper.downloadTentofreeAppBanner,width: 40.sw,),
-                    gapH20,
-                    Row(
-                  mainAxisSize: MainAxisSize.min,
-
-                      children: [
-                        Image.asset(AssetsHelper.downloadFromAppleBanner,width: 20.sw),
-                        Image.asset(AssetsHelper.downloadFromGooglePlayBanner,width: 20.sw),
-                      ],
-                    ),
-                  ],
-                ),
-                Image.asset(AssetsHelper.phoneApp,width: 30.sw)
-              ],
-            ),
-          ),
-          Row(
-            children: [
-              Image.asset(AssetsHelper.logoDarkImage,width: 20.sw,),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // Text()
-                ],
-              )
-            ],
-          )
+          const DownloadAppSection(),
+          gapH20,
+          const FooterSection(),
+          gapH20,
+          const TrademarkSection()
         ],
       ),
     );

@@ -19,7 +19,24 @@
     "pack":"Pack",
     "voucher":"Voucher",
     "vendor":"Vendor",
-    "user":"User"
+    "user":"User",
+    "company" : "Company",
+    "aboutTentofree" : "About tentofree",
+    "securityAndPrivacy" : "Security & Privacy",
+    "pressAndMedia" : "Press & media",
+    "workWithUs" : "Work with us",
+    "carrers" : "Carrers",
+    "becomePartner" : "Become a partner",
+    "business" : "Business",
+    "legal" : "Legal",
+    "endUserAgreement" : "End user Agreement",
+    "termOfSale" : "Term of sale",
+    "ourTerms" : "Our Terms",
+    "privacyPolicy" : "Privacy Policy",
+    "getInTouch" : "Get in touch",
+    "FAQs" : "FAQs",
+    "contactUs" : "Contact us",
+    "helpCenter" : "Help center"
 
 
     

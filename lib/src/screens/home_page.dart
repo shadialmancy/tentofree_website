@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
         //     title: l10n.joinNow,
         //   )
         // ],
-        leadingWidth: 20.sw,
+        leadingWidth: 200,
         toolbarHeight: 100,
         leading: Padding(
           padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),

@@ -249,6 +249,176 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `Company`
+  String get company {
+    return Intl.message(
+      'Company',
+      name: 'company',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `About tentofree`
+  String get aboutTentofree {
+    return Intl.message(
+      'About tentofree',
+      name: 'aboutTentofree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Security & Privacy`
+  String get securityAndPrivacy {
+    return Intl.message(
+      'Security & Privacy',
+      name: 'securityAndPrivacy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Press & media`
+  String get pressAndMedia {
+    return Intl.message(
+      'Press & media',
+      name: 'pressAndMedia',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Work with us`
+  String get workWithUs {
+    return Intl.message(
+      'Work with us',
+      name: 'workWithUs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Carrers`
+  String get carrers {
+    return Intl.message(
+      'Carrers',
+      name: 'carrers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Become a partner`
+  String get becomePartner {
+    return Intl.message(
+      'Become a partner',
+      name: 'becomePartner',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Business`
+  String get business {
+    return Intl.message(
+      'Business',
+      name: 'business',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Legal`
+  String get legal {
+    return Intl.message(
+      'Legal',
+      name: 'legal',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `End user Agreement`
+  String get endUserAgreement {
+    return Intl.message(
+      'End user Agreement',
+      name: 'endUserAgreement',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Term of sale`
+  String get termOfSale {
+    return Intl.message(
+      'Term of sale',
+      name: 'termOfSale',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our Terms`
+  String get ourTerms {
+    return Intl.message(
+      'Our Terms',
+      name: 'ourTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get privacyPolicy {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'privacyPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get in touch`
+  String get getInTouch {
+    return Intl.message(
+      'Get in touch',
+      name: 'getInTouch',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `FAQs`
+  String get FAQs {
+    return Intl.message(
+      'FAQs',
+      name: 'FAQs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact us`
+  String get contactUs {
+    return Intl.message(
+      'Contact us',
+      name: 'contactUs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Help center`
+  String get helpCenter {
+    return Intl.message(
+      'Help center',
+      name: 'helpCenter',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

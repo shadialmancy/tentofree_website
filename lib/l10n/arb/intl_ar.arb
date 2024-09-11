@@ -20,7 +20,29 @@
     "pack":"حزمة",
     "voucher":"قسيمة",
     "vendor":"بائع",
-    "user":"مستخدم"
+    "user":"مستخدم",
+    "company" : "شركة",
+    "aboutTentofree" : "نبذة عن Tentofree",
+    "securityAndPrivacy" : "الأمان والخصوصية",
+    "pressAndMedia" : "الصحافة والاعلام",
+    "workWithUs" : "العمل معنا",
+    "carrers" : "المهن",
+    "becomePartner" : "كن شريكا",
+    "business" : "الأعمال",
+    "legal" : "قانوني",
+    "endUserAgreement" : "اتفاقية المستخدم النهائي",
+    "termOfSale" : "شروط البيع",
+    "ourTerms" : "شروطنا",
+    "privacyPolicy" : "سياسة الخصوصية",
+    "getInTouch" : "تواصل معنا",
+    "FAQs" : "FAQs",
+    "contactUs" : "اتصل بنا",
+    "helpCenter" : "مركز المساعدة"
+
+
+
+
+
 
 
 
