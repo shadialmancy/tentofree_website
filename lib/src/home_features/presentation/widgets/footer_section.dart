@@ -1,5 +1,7 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import 'package:tentofree_web/src/core/routes/app_router.dart';
 
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/helpers/helpers.dart';
@@ -114,18 +116,28 @@ class FooterSection extends StatelessWidget {
                           fontWeight: FontWeight.w900),
                     ),
                     gapH12,
-                    Text(
-                      l10n.ourTerms,
-                      style: theme.bodySmall.copyWith(
-                          color: theme.black.withOpacity(0.5),
-                          fontWeight: FontWeight.w900),
+                    GestureDetector(
+                      onTap: () {
+                        context.router.push(const TermsAndConditionsRoute());
+                      },
+                      child: Text(
+                        l10n.ourTerms,
+                        style: theme.bodySmall.copyWith(
+                            color: theme.black.withOpacity(0.5),
+                            fontWeight: FontWeight.w900),
+                      ),
                     ),
                     gapH12,
-                    Text(
-                      l10n.privacyPolicy,
-                      style: theme.bodySmall.copyWith(
-                          color: theme.black.withOpacity(0.5),
-                          fontWeight: FontWeight.w900),
+                    GestureDetector(
+                      onTap: () {
+                        context.router.push(const PrivacyPolicyRoute());
+                      },
+                      child: Text(
+                        l10n.privacyPolicy,
+                        style: theme.bodySmall.copyWith(
+                            color: theme.black.withOpacity(0.5),
+                            fontWeight: FontWeight.w900),
+                      ),
                     ),
                   ],
                 ),

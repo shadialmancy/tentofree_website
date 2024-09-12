@@ -5,3 +5,5 @@ export 'business_info.dart';
 export 'footer_section.dart';
 export 'download_app_section.dart';
 export 'trademark_section.dart';
+export 'terms_and_conditiion_data.dart';
+export 'privacy_policy_data.dart';

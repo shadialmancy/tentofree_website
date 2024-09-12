@@ -35,7 +35,7 @@ class _AppState extends State<App> {
 
     return ResponsiveApp(builder: (context) {
       return MaterialApp.router(
-          title: 'Date-Farm-Ecommerce',
+          title: 'Tentofree-Web',
           locale: const Locale('en'),
           theme: ThemeData(
             bottomSheetTheme: const BottomSheetThemeData(

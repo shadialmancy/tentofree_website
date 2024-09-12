@@ -13,12 +13,32 @@ class HomeWebUi extends StatefulWidget {
 }
 
 class _HomeWebUiState extends State<HomeWebUi> {
+    bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    loadData();
+  }
+
+  Future<void> loadData() async {
+    // Simulate loading time (replace with actual data loading if needed)
+    await Future.delayed(const Duration(seconds: 2));
+    setState(() {
+      _isLoading = false;
+    });
+  }
   
   @override
   Widget build(BuildContext context) {
     final (theme, l10n) = appSettingsRecord(context);
-
-    return SingleChildScrollView(
+    return _isLoading
+      ? Center(
+          child: CircularProgressIndicator(
+            color: theme.primary,
+          ),
+        )
+      :  SingleChildScrollView(
       child: Column(
         children: [
           Container(
