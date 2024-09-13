@@ -7,6 +7,7 @@ import 'package:tentofree_web/src/home_features/presentation/pages/mobile/terms_
 
 import '../core/constants/adaptive.dart';
 import '../core/constants/app_sizes.dart';
+import '../core/routes/app_router.dart';
 import '../home_features/presentation/pages/web/terms_and_conditions_ui.dart';
 
 
@@ -34,7 +35,12 @@ class TermsAndConditionsPage extends StatelessWidget {
         toolbarHeight: 100,
         leading: Padding(
           padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),
-          child: Image.asset(AssetsHelper.logoImage,width: 5.sw,),
+          child: GestureDetector(
+            onTap: () {
+              context.router.push(const HomeRoute());
+              
+            },
+            child: Image.asset(AssetsHelper.logoImage,width: 5.sw,)),
         ),
       ),
       backgroundColor: theme.white,

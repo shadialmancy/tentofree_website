@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:tentofree_web/src/core/helpers/helpers.dart';
+import 'package:tentofree_web/src/core/routes/app_router.dart';
 import 'package:tentofree_web/src/home_features/presentation/pages/web/home_web_ui.dart';
 
 import '../core/constants/adaptive.dart';
@@ -34,7 +35,11 @@ class HomePage extends StatelessWidget {
         toolbarHeight: 100,
         leading: Padding(
           padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),
-          child: Image.asset(AssetsHelper.logoImage,width: 5.sw,),
+          child: GestureDetector(
+            onTap: () {
+              context.router.push(const HomeRoute());
+            },
+            child: Image.asset(AssetsHelper.logoImage,width: 5.sw,)),
         ),
       ),
       backgroundColor: theme.white,
