@@ -37,7 +37,7 @@ class PrivacyPolicyPage extends StatelessWidget {
           padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),
           child: GestureDetector(
             onTap: () {
-              context.router.push(const HomeRoute());
+              context.router.replace(const HomeRoute());
               
             },
             child: Image.asset(AssetsHelper.logoImage,width: 5.sw,)),
