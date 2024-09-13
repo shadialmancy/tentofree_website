@@ -25,12 +25,7 @@ class PrivacyPolicyPage extends StatelessWidget {
         backgroundColor: theme.primary,
         centerTitle: true,
         surfaceTintColor: theme.primary,
-        // actions: [
-        //   CustomButton(
-        //     backgroundColor: theme.secondary,
-        //     title: l10n.joinNow,
-        //   )
-        // ],
+        
         leadingWidth: 200,
         toolbarHeight: 100,
         leading: Padding(
