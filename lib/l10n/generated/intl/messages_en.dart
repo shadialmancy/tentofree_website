@@ -31,15 +31,32 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Become a partner"),
         "business": MessageLookupByLibrary.simpleMessage("Business"),
         "carrers": MessageLookupByLibrary.simpleMessage("Carrers"),
+        "chooseRequestType":
+            MessageLookupByLibrary.simpleMessage("Choose a request type"),
         "company": MessageLookupByLibrary.simpleMessage("Company"),
         "contactUs": MessageLookupByLibrary.simpleMessage("Contact us"),
+        "description": MessageLookupByLibrary.simpleMessage("Description"),
+        "discussYourInquiry":
+            MessageLookupByLibrary.simpleMessage("Discuss your inquiry"),
         "doUWantToExitTheApp": MessageLookupByLibrary.simpleMessage(
             "Do you want to exit the app?"),
         "downloadTentofreeApp":
             MessageLookupByLibrary.simpleMessage("Download tentofree app"),
+        "email": MessageLookupByLibrary.simpleMessage("Email address"),
         "en": MessageLookupByLibrary.simpleMessage("EN"),
         "endUserAgreement":
             MessageLookupByLibrary.simpleMessage("End user Agreement"),
+        "enterSubjectDescribeYourInquiry": MessageLookupByLibrary.simpleMessage(
+            "Enter subject describe your inquiry"),
+        "enterYourCountry":
+            MessageLookupByLibrary.simpleMessage("Enter your country"),
+        "enterYourEmail":
+            MessageLookupByLibrary.simpleMessage("Enter your email address"),
+        "enterYourFirstName":
+            MessageLookupByLibrary.simpleMessage("Enter your first name"),
+        "enterYourLastName":
+            MessageLookupByLibrary.simpleMessage("Enter your last name"),
+        "firstName": MessageLookupByLibrary.simpleMessage("First name"),
         "getInTouch": MessageLookupByLibrary.simpleMessage("Get in touch"),
         "goToYourFavouriteStore":
             MessageLookupByLibrary.simpleMessage("Go to your favourite store"),
@@ -50,20 +67,29 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("How Does it Work"),
         "joinNow": MessageLookupByLibrary.simpleMessage("Join Now"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
+        "lastName": MessageLookupByLibrary.simpleMessage("Last name"),
         "legal": MessageLookupByLibrary.simpleMessage("Legal"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
         "ourTerms": MessageLookupByLibrary.simpleMessage("Our Terms"),
         "pack": MessageLookupByLibrary.simpleMessage("Pack"),
+        "phoneNumber": MessageLookupByLibrary.simpleMessage("Phone number"),
         "pressAndMedia": MessageLookupByLibrary.simpleMessage("Press & media"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "region": MessageLookupByLibrary.simpleMessage("Region"),
         "saveAndGetYourDiscount":
             MessageLookupByLibrary.simpleMessage("Save & get your discount"),
         "securityAndPrivacy":
             MessageLookupByLibrary.simpleMessage("Security & Privacy"),
+        "selectRequestType":
+            MessageLookupByLibrary.simpleMessage("Select your request type"),
         "shareWithYourCommunity":
             MessageLookupByLibrary.simpleMessage("Share with your community"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "subject": MessageLookupByLibrary.simpleMessage("Subject"),
+        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+        "submitRequest":
+            MessageLookupByLibrary.simpleMessage("Submit a Request"),
         "termOfSale": MessageLookupByLibrary.simpleMessage("Term of sale"),
         "user": MessageLookupByLibrary.simpleMessage("User"),
         "vendor": MessageLookupByLibrary.simpleMessage("Vendor"),

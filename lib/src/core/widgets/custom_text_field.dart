@@ -85,6 +85,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 : false
             : false,
         decoration: InputDecoration(
+          fillColor: Colors.white,
+          filled: true,
           floatingLabelBehavior: FloatingLabelBehavior.always,
           labelText: widget.label,
           hintText: widget.hint,

@@ -36,7 +36,25 @@
     "getInTouch" : "Get in touch",
     "FAQs" : "FAQs",
     "contactUs" : "Contact us",
-    "helpCenter" : "Help center"
+    "helpCenter" : "Help center",
+    "submitRequest" : "Submit a Request",
+    "firstName" : "First name",
+    "lastName" : "Last name",
+    "enterYourFirstName" : "Enter your first name",
+    "enterYourLastName" : "Enter your last name",
+    "email" : "Email address",
+    "enterYourEmail" : "Enter your email address",
+    "phoneNumber" : "Phone number",
+    "region" : "Region",
+    "enterYourCountry" : "Enter your country",
+    "chooseRequestType" : "Choose a request type",
+    "selectRequestType" : "Select your request type",
+    "subject" : "Subject",
+    "enterSubjectDescribeYourInquiry" : "Enter subject describe your inquiry",
+    "description" : "Description",
+    "discussYourInquiry" : "Discuss your inquiry",
+    "submit" : "Submit"
+    
 
 
     

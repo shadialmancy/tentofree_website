@@ -41,7 +41,6 @@ class _PrivacyPolicyUiState extends State<PrivacyPolicyUi> {
           ),
           gapH20,
           const PrivacyPolicyData(),
-
           gapH20,
           const DownloadAppSection(),
           gapH20,

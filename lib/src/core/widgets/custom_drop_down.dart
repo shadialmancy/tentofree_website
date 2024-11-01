@@ -23,7 +23,9 @@ class CustomDropDown extends StatelessWidget {
       items: items,
       validator: validator,
       decoration: InputDecoration(
-        label: Text(hint),
+        fillColor: Colors.white,
+        filled: true,
+        // label: Text(hint),
         floatingLabelBehavior: FloatingLabelBehavior.always,
         hintText: hint,
         errorMaxLines: 3,

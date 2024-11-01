@@ -419,6 +419,176 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `Submit a Request`
+  String get submitRequest {
+    return Intl.message(
+      'Submit a Request',
+      name: 'submitRequest',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First name`
+  String get firstName {
+    return Intl.message(
+      'First name',
+      name: 'firstName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last name`
+  String get lastName {
+    return Intl.message(
+      'Last name',
+      name: 'lastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your first name`
+  String get enterYourFirstName {
+    return Intl.message(
+      'Enter your first name',
+      name: 'enterYourFirstName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your last name`
+  String get enterYourLastName {
+    return Intl.message(
+      'Enter your last name',
+      name: 'enterYourLastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email address`
+  String get email {
+    return Intl.message(
+      'Email address',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your email address`
+  String get enterYourEmail {
+    return Intl.message(
+      'Enter your email address',
+      name: 'enterYourEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phone number`
+  String get phoneNumber {
+    return Intl.message(
+      'Phone number',
+      name: 'phoneNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Region`
+  String get region {
+    return Intl.message(
+      'Region',
+      name: 'region',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your country`
+  String get enterYourCountry {
+    return Intl.message(
+      'Enter your country',
+      name: 'enterYourCountry',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Choose a request type`
+  String get chooseRequestType {
+    return Intl.message(
+      'Choose a request type',
+      name: 'chooseRequestType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select your request type`
+  String get selectRequestType {
+    return Intl.message(
+      'Select your request type',
+      name: 'selectRequestType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Subject`
+  String get subject {
+    return Intl.message(
+      'Subject',
+      name: 'subject',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter subject describe your inquiry`
+  String get enterSubjectDescribeYourInquiry {
+    return Intl.message(
+      'Enter subject describe your inquiry',
+      name: 'enterSubjectDescribeYourInquiry',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Description`
+  String get description {
+    return Intl.message(
+      'Description',
+      name: 'description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discuss your inquiry`
+  String get discussYourInquiry {
+    return Intl.message(
+      'Discuss your inquiry',
+      name: 'discussYourInquiry',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

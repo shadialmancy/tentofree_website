@@ -16,6 +16,8 @@ class AssetsHelper {
   static const String vendorIcon = 'assets/images/vendor_icon.png';
   static const String phoneApp = 'assets/images/phone_app.png';
   static const String voucherIcon = 'assets/images/voucher_icon.png';
+  static const String contactUs = 'assets/images/Contact-us.png';
+  static const String contactUsBanner = 'assets/images/contact_us_banner.png';
   static const String downloadTentofreeAppBanner = 'assets/images/download_the_app_banner.png';
   static const String downloadFromAppleBanner = 'assets/images/download_from_apple_banner.png';
   static const String downloadFromGooglePlayBanner = 'assets/images/download_from_google_play_banner.png';

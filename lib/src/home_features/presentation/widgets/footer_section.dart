@@ -157,11 +157,16 @@ class FooterSection extends StatelessWidget {
                           fontWeight: FontWeight.w900),
                     ),
                     gapH12,
-                    Text(
-                      l10n.contactUs,
-                      style: theme.bodySmall.copyWith(
-                          color: theme.black.withOpacity(0.5),
-                          fontWeight: FontWeight.w900),
+                    GestureDetector(
+                      onTap: () {
+                        context.router.push(const ContactUsRoute());
+                      },
+                      child: Text(
+                        l10n.contactUs,
+                        style: theme.bodySmall.copyWith(
+                            color: theme.black.withOpacity(0.5),
+                            fontWeight: FontWeight.w900),
+                      ),
                     ),
                     gapH12,
                     Text(
