@@ -13,9 +13,7 @@ class CustomDrawer extends ConsumerWidget {
       child: SafeArea(
         child: ListView(
           padding: EdgeInsets.zero,
-          children: const [
-            
-          ],
+          children: const [],
         ),
       ),
     );

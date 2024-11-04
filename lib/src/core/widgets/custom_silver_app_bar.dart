@@ -40,7 +40,6 @@ class _CustomSilverAppBarState extends State<CustomSilverAppBar> {
           borderRadius: BorderRadius.only(
               bottomLeft: Radius.circular(20),
               bottomRight: Radius.circular(20))),
-      
       automaticallyImplyLeading: false,
     );
   }

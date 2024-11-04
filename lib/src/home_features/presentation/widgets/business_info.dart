@@ -13,39 +13,42 @@ class BusinessInfo extends StatelessWidget {
     final (theme, l10n) = appSettingsRecord(context);
 
     return Container(
-                  margin: EdgeInsets.all(1.sw),
-                  padding: EdgeInsets.symmetric(vertical: 1.sh,horizontal: 7.sw),
-                  decoration: BoxDecoration(
-                      color: theme.primary,
-                      borderRadius: AppSizes.borderRadius8),
-                  child: Wrap(
-                    spacing: isMobile ?? false ? 12.sw : 7.sw,
-                    runSpacing: 20,
-                    crossAxisAlignment: WrapCrossAlignment.center,
-                    alignment: WrapAlignment.spaceEvenly,
-                    children: [
-                      InfoIconsContainer(
-                        image: AssetsHelper.packIcon,
-                        number: "1M+",
-                        title: l10n.pack, isMobile: true,
-                      ),
-                      InfoIconsContainer(
-                        image: AssetsHelper.voucherIcon,
-                        number: "10M+",
-                        title: l10n.voucher, isMobile: true,
-                      ),
-                      InfoIconsContainer(
-                        image: AssetsHelper.userIcon,
-                        number: "1M+",
-                        title: l10n.user, isMobile: true,
-                      ),
-                      InfoIconsContainer(
-                        image: AssetsHelper.vendorIcon,
-                        number: "500+",
-                        title: l10n.vendor, isMobile: true,
-                      ),
-                    ],
-                  ),
-                );
+      margin: EdgeInsets.all(1.sw),
+      padding: EdgeInsets.symmetric(vertical: 1.sh, horizontal: 7.sw),
+      decoration: BoxDecoration(
+          color: theme.primary, borderRadius: AppSizes.borderRadius8),
+      child: Wrap(
+        spacing: isMobile ?? false ? 12.sw : 7.sw,
+        runSpacing: 20,
+        crossAxisAlignment: WrapCrossAlignment.center,
+        alignment: WrapAlignment.spaceEvenly,
+        children: [
+          InfoIconsContainer(
+            image: AssetsHelper.packIcon,
+            number: "1M+",
+            title: l10n.pack,
+            isMobile: true,
+          ),
+          InfoIconsContainer(
+            image: AssetsHelper.voucherIcon,
+            number: "10M+",
+            title: l10n.voucher,
+            isMobile: true,
+          ),
+          InfoIconsContainer(
+            image: AssetsHelper.userIcon,
+            number: "1M+",
+            title: l10n.user,
+            isMobile: true,
+          ),
+          InfoIconsContainer(
+            image: AssetsHelper.vendorIcon,
+            number: "500+",
+            title: l10n.vendor,
+            isMobile: true,
+          ),
+        ],
+      ),
+    );
   }
 }

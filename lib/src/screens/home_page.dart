@@ -10,7 +10,6 @@ import '../core/constants/adaptive.dart';
 import '../core/constants/app_sizes.dart';
 import '../home_features/presentation/pages/mobile/home_mobile_ui.dart';
 
-
 @RoutePage()
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -34,12 +33,15 @@ class HomePage extends StatelessWidget {
         leadingWidth: 200,
         toolbarHeight: 100,
         leading: Padding(
-          padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),
+          padding: EdgeInsets.only(top: 2.sw, left: 2.sw, bottom: 2.sw),
           child: GestureDetector(
-            onTap: () {
-              context.router.push(const HomeRoute());
-            },
-            child: Image.asset(AssetsHelper.logoImage,width: 5.sw,)),
+              onTap: () {
+                context.router.push(const HomeRoute());
+              },
+              child: Image.asset(
+                AssetsHelper.logoImage,
+                width: 5.sw,
+              )),
         ),
       ),
       backgroundColor: theme.white,

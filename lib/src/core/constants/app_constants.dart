@@ -3,47 +3,25 @@ import 'package:logger/web.dart';
 class AppConstants {
   const AppConstants._();
 
-  static const String apiBaseUrl = 'https://waqfmohammedhail.org/api/v1';
+  static const String apiBaseUrl = 'https://tentofree-bd81aaf9897b.herokuapp.com/api';
 
   static const String refreshToken = 'refresh-token';
   static const cartKey = 'cartKey';
-  static const String loginApiUrl = '/iam/login';
-  static const String registerApiUrl = '/iam/users';
-  static const String getUserApiUrl = '/iam/users';
-  static const String getProductUrl = '/products/products';
-  static const String getCategoriesUrl = '/products/categories';
-  static const String createOrderUrl = '/orders/orders';
-  static const String getNewsUrl = '/products/news';
-  static const String postNewsUrl = '/products/news';
-  static const String getOrdersUrl = '/orders/orders';
-  static const String expiryTime = 'expiry-time';
-  static const String defaultLocale = 'default-locale';
-  static const String userId = 'userId';
-  static const String deviceToken = 'DeviceToken';
+  static const String sendTicketUrl = '/vendor-register/contact-us-form-request/';
+  
 }
 
-List<String> orderStatus = [
-  'pending approval',
-  'pending fulfilment',
-  'fulfilled',
-  'purtily fulfilled',
-  'shipped',
-  'delivered',
-  'canceled',
-];
-List<String> userRole = [
-  'super user',
-  'admin',
-  'preparer',
-  'tracker',
-  'shipped',
-  'customer',
-];
-List<String> customerType = [
-  'families',
-  'fasting',
-  'charities',
-];
+
+Map<String,String> requestType = {
+  "TRAINING_AND_ONBOARDING" : "Training and onboarding",
+  "SECURITY_CONCERNS" : "Security concerns",
+  "ACCESSIBILITY_REQUESTS" : "Accessibility requests",
+  "FEEDBACK_AND_SUGGESTIONS" : "Feedback and suggestions",
+  "CUSTOMER_SERVICE" : "Customer service",
+  "PRODUCT_SUPPORT" : "Product support",
+  "ACCOUNT_MANAGEMENT" : "Account management",
+  "TECHNICAL_SUPPORT" : "Techincal support",
+};
 
 Logger logger = Logger(
   printer: HybridPrinter(
@@ -75,5 +53,3 @@ Logger logger = Logger(
   ),
 );
 
-const userInfoBox = 'userInfoBox';
-const dateCartItemBox = 'dateCartItemBox';

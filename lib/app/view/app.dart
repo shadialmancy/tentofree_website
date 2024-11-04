@@ -36,7 +36,7 @@ class _AppState extends State<App> {
     return ResponsiveApp(builder: (context) {
       return MaterialApp.router(
           title: 'Tentofree-Web',
-          locale: const Locale('en'),
+          locale: const Locale('en','US'),
           theme: ThemeData(
             bottomSheetTheme: const BottomSheetThemeData(
               backgroundColor: Colors.white,
@@ -44,7 +44,6 @@ class _AppState extends State<App> {
             dialogTheme: const DialogTheme(
               backgroundColor: Colors.white,
             ),
-            
             scrollbarTheme: ScrollbarThemeData(
               thumbVisibility: WidgetStateProperty.all(false),
               trackVisibility: WidgetStateProperty.all(false),
@@ -61,7 +60,6 @@ class _AppState extends State<App> {
             ),
           ),
           darkTheme: ThemeData(
-            
             // brightness: Brightness.dark,
             bottomSheetTheme: const BottomSheetThemeData(
               backgroundColor: Colors.white,

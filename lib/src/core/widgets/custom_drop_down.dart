@@ -22,10 +22,12 @@ class CustomDropDown extends StatelessWidget {
     return DropdownButtonFormField(
       items: items,
       validator: validator,
+      dropdownColor: Colors.white,
       decoration: InputDecoration(
         fillColor: Colors.white,
         filled: true,
         // label: Text(hint),
+        
         floatingLabelBehavior: FloatingLabelBehavior.always,
         hintText: hint,
         errorMaxLines: 3,

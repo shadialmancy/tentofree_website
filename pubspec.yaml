@@ -75,6 +75,7 @@ dependencies:
   flutter_svg: ^2.0.10+1
   cart_stepper: ^4.3.0
   extended_phone_number_input: ^1.0.2
+  http: ^1.2.2
 
   
 dev_dependencies:

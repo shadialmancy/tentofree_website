@@ -10,7 +10,6 @@ import '../core/constants/adaptive.dart';
 import '../core/constants/app_sizes.dart';
 import '../core/routes/app_router.dart';
 
-
 @RoutePage()
 class PrivacyPolicyPage extends StatelessWidget {
   const PrivacyPolicyPage({super.key});
@@ -25,17 +24,18 @@ class PrivacyPolicyPage extends StatelessWidget {
         backgroundColor: theme.primary,
         centerTitle: true,
         surfaceTintColor: theme.primary,
-        
         leadingWidth: 200,
         toolbarHeight: 100,
         leading: Padding(
-          padding:  EdgeInsets.only(top: 2.sw,left: 2.sw,bottom: 2.sw),
+          padding: EdgeInsets.only(top: 2.sw, left: 2.sw, bottom: 2.sw),
           child: GestureDetector(
-            onTap: () {
-              context.router.replace(const HomeRoute());
-              
-            },
-            child: Image.asset(AssetsHelper.logoImage,width: 5.sw,)),
+              onTap: () {
+                context.router.replace(const HomeRoute());
+              },
+              child: Image.asset(
+                AssetsHelper.logoImage,
+                width: 5.sw,
+              )),
         ),
       ),
       backgroundColor: theme.white,

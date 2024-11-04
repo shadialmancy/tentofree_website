@@ -41,7 +41,6 @@ class _TermsAndConditionsUiState extends State<TermsAndConditionsUi> {
           ),
           gapH20,
           const TermsAndConditiionData(),
-
           gapH20,
           const DownloadAppSection(),
           gapH20,

@@ -31,16 +31,21 @@ class _PrivacyPolicyMobileUiState extends State<PrivacyPolicyMobileUi> {
                   AssetsHelper.privacyPolicyBanner,
                   width: 80.sw,
                 ),
-                
               ],
             ),
           ),
           gapH20,
-          const PrivacyPolicyData(isMobile: true,),
+          const PrivacyPolicyData(
+            isMobile: true,
+          ),
           gapH20,
-          const DownloadAppSection(isMobile: true,),
+          const DownloadAppSection(
+            isMobile: true,
+          ),
           gapH20,
-          const FooterSection(isMobile: true,),
+          const FooterSection(
+            isMobile: true,
+          ),
           gapH20,
           const TrademarkSection()
         ],

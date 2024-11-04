@@ -4,6 +4,7 @@ import 'package:extended_phone_number_input/phone_number_input.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/app_sizes.dart';
+
 class PhoneField extends StatelessWidget {
   const PhoneField({
     super.key,
@@ -22,21 +23,20 @@ class PhoneField extends StatelessWidget {
       children: [
         Theme(
           data: Theme.of(context).copyWith(
-            primaryColor: theme.grey9797,
-            inputDecorationTheme: InputDecorationTheme(
-              filled: true,
-              fillColor: theme.white,
-              
-            )
-          ),
+              primaryColor: theme.grey9797,
+              inputDecorationTheme: InputDecorationTheme(
+                filled: true,
+                fillColor: theme.white,
+                
+              )),
           child: PhoneNumberInput(
             initialCountry: 'EG',
-            locale: 'en',
             countryListMode: CountryListMode.bottomSheet,
             controller: controller,
             allowPickFromContacts: false,
             onChanged: onPhoneChanged,
             contactsPickerPosition: ContactsPickerPosition.suffix,
+            errorText: 'Please enter a valid number',
             enabledBorder: OutlineInputBorder(
               borderRadius: AppSizes.borderRadius8,
               borderSide: BorderSide(
@@ -57,8 +57,6 @@ class PhoneField extends StatelessWidget {
             ),
           ),
         ),
-
-       
       ],
     );
   }

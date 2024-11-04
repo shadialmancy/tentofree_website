@@ -11,10 +11,11 @@ part 'app_router.gr.dart';
 class AppRouter extends _$AppRouter {
   @override
   List<AutoRoute> get routes => [
-        AutoRoute(page: HomeRoute.page,path: '/home',initial: true),
-        AutoRoute(page: TermsAndConditionsRoute.page,path: '/terms-and-conditions'),
-        AutoRoute(page: PrivacyPolicyRoute.page,path: '/privacy-policy'),
-        AutoRoute(page: ContactUsRoute.page,path: '/contact-us'),
+        AutoRoute(page: HomeRoute.page, path: '/home', initial: true),
+        AutoRoute(
+            page: TermsAndConditionsRoute.page, path: '/terms-and-conditions'),
+        AutoRoute(page: PrivacyPolicyRoute.page, path: '/privacy-policy'),
+        AutoRoute(page: ContactUsRoute.page, path: '/contact-us'),
         // RedirectRoute(path: '*', redirectTo: '/'),
       ];
   Widget transition(context, animation, secondaryAnimation, child) {

@@ -8,7 +8,8 @@ class TitleWithSupportTextfeild extends StatelessWidget {
       {super.key,
       required this.title,
       required this.hint,
-      required this.controller, this.maxLine});
+      required this.controller,
+      this.maxLine});
   final String title;
   final String hint;
   final TextEditingController controller;
@@ -35,6 +36,11 @@ class TitleWithSupportTextfeild extends StatelessWidget {
         ),
         gapH12,
         CustomTextField(
+          validator: (value) {
+            if(value!.isEmpty) {
+              return "This field is required";
+            } return null;
+          },
             keyboardType: TextInputType.name,
             maxLines: maxLine,
             hint: hint,

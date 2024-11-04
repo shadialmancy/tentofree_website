@@ -13,14 +13,11 @@ class HomeWebUi extends StatefulWidget {
 }
 
 class _HomeWebUiState extends State<HomeWebUi> {
-
   @override
   void initState() {
     super.initState();
   }
 
-
-  
   @override
   Widget build(BuildContext context) {
     final (theme, l10n) = appSettingsRecord(context);
@@ -28,7 +25,7 @@ class _HomeWebUiState extends State<HomeWebUi> {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(vertical: 2.sh,horizontal: 5.sw),
+            padding: EdgeInsets.symmetric(vertical: 2.sh, horizontal: 5.sw),
             width: double.infinity,
             color: theme.primary,
             child: Row(

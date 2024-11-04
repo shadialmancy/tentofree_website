@@ -11,13 +11,14 @@ class TrademarkSection extends StatelessWidget {
     final (theme, _) = appSettingsRecord(context);
 
     return Container(
-            width: double.infinity,
-            padding: EdgeInsets.all(3.sw),
-            alignment: Alignment.center,
-            color: theme.primary,
-            child:  Text("© 2024 Tentofree All rights reserved.",style: theme.bodySmall.copyWith(
-              color: theme.secondary
-            ),),
-          );
+      width: double.infinity,
+      padding: EdgeInsets.all(3.sw),
+      alignment: Alignment.center,
+      color: theme.primary,
+      child: Text(
+        "© 2024 Tentofree All rights reserved.",
+        style: theme.bodySmall.copyWith(color: theme.secondary),
+      ),
+    );
   }
 }

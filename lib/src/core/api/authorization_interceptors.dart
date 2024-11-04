@@ -1,4 +1,3 @@
-
 // Request methods PUT, POST, PATCH, DELETE needs access token,
 // which needs to be passed with "Authorization" header as Bearer token.
 import 'package:dio/dio.dart';

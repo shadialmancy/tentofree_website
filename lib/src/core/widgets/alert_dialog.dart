@@ -1,4 +1,3 @@
-
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
@@ -52,4 +51,3 @@ showSuccessAlert(BuildContext context, String text) async {
     },
   );
 }
-

@@ -9,19 +9,21 @@ class TermsAndCondtitionsMobileUi extends StatefulWidget {
   const TermsAndCondtitionsMobileUi({super.key});
 
   @override
-  State<TermsAndCondtitionsMobileUi> createState() => _TermsAndCondtitionsMobileUiState();
+  State<TermsAndCondtitionsMobileUi> createState() =>
+      _TermsAndCondtitionsMobileUiState();
 }
 
-class _TermsAndCondtitionsMobileUiState extends State<TermsAndCondtitionsMobileUi> {
+class _TermsAndCondtitionsMobileUiState
+    extends State<TermsAndCondtitionsMobileUi> {
   @override
   Widget build(BuildContext context) {
     final (theme, _) = appSettingsRecord(context);
 
-    return  SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(vertical: 2.sh,horizontal: 4.5.sw),
+            padding: EdgeInsets.symmetric(vertical: 2.sh, horizontal: 4.5.sw),
             width: double.infinity,
             color: theme.primary,
             child: Row(
@@ -41,12 +43,17 @@ class _TermsAndCondtitionsMobileUiState extends State<TermsAndCondtitionsMobileU
             ),
           ),
           gapH20,
-          const TermsAndConditiionData(isMobile: true,),
+          const TermsAndConditiionData(
+            isMobile: true,
+          ),
           gapH20,
-          
-          const DownloadAppSection(isMobile: true,),
+          const DownloadAppSection(
+            isMobile: true,
+          ),
           gapH20,
-          const FooterSection(isMobile: true,),
+          const FooterSection(
+            isMobile: true,
+          ),
           gapH20,
           const TrademarkSection()
         ],
